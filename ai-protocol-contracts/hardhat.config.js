@@ -361,12 +361,12 @@ module.exports = {
 
 	// compile Solidity sources directly from NPM dependencies
 	// https://github.com/ItsNickBarry/hardhat-dependency-compiler
-	dependencyCompiler: {
-		paths: [
-			// ERC1967 is used to deploy upgradeable contracts
-			"@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
-		],
-	},
+	// dependencyCompiler: {
+	// 	paths: [
+	// 		// ERC1967 is used to deploy upgradeable contracts
+	// 		"@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+	// 	],
+	// },
 
 	// namedAccounts allows you to associate names to addresses and have them configured per chain
 	// https://github.com/wighawag/hardhat-deploy#1-namedaccounts-ability-to-name-addresses
