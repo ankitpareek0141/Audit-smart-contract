@@ -9,7 +9,10 @@ contract SimpleContract {
     }
 
     function setValue(uint256 _newValue) public {
-        assert(_newValue <= 100000000);
+        assert(_newValue <= 100000000); 
+        require(                       
+            _newValue <= 100000000
+        );
         value = _newValue;
     }
 
